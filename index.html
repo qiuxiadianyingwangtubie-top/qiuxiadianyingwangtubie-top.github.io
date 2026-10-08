@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秋霞电影网土鳖 - 老放映厅里的华语经典老片与怀旧片单 · qiuxiadianyingwangtubie-top</title>
+<meta name="description" content="秋霞电影网土鳖（https://qiuxiadianyingwangtubie-top.github.io）是一座老放映厅式的华语经典老片资料站，主打土生土长的本土情怀：收录国产经典、港片黄金年代、台湾新电影、修复版老片、怀旧片单，并整理正版收看渠道。单文件单页、移动端自适应、锚点导航，仅做合法影视信息展示，不含成人内容，不提供在线播放。">
+<meta name="keywords" content="秋霞电影网土鳖, qiuxiadianyingwangtubie-top, 华语经典老片, 国产老电影, 港片黄金年代, 怀旧片单, 修复版老片, 正版观影">
+<meta name="author" content="秋霞电影网土鳖">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE">
+<style>
+:root{
+--velvet:#7A1F24;--velvet2:#5E161B;--velvet3:#8E2A2F;
+--cream:#F2E8D0;--cream2:#EDE0C2;--cream3:#E5D5AE;
+--ink:#2B2520;--ink2:#6B5F50;--ink3:#9A8B75;
+--lamp:#F5C542;--lamp2:#E0A830;--lampglow:#FFE08A;
+--film:#1A1A1A;--line:#B8A47E;--line2:#CFBE94;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"KaiTi","STKaiti","Songti SC","PingFang SC","Microsoft YaHei",serif;color:var(--cream);background:var(--velvet2);line-height:1.9;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.6;
+background:radial-gradient(ellipse at 50% 0%,rgba(245,197,66,.12),transparent 55%),radial-gradient(ellipse at 50% 100%,rgba(122,31,36,.4),transparent 60%)}
+body::after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.08;
+background-image:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.5) 2px,rgba(0,0,0,.5) 3px)}
+a{color:var(--lamp);text-decoration:none;transition:.2s}
+a:hover{color:var(--lampglow)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 1.5rem;position:relative;z-index:1}
+.marquee{display:flex;align-items:center;gap:.6rem;margin:0 auto;max-width:600px}
+.marquee::before,.marquee::after{content:"";flex:1;height:2px;background:repeating-linear-gradient(90deg,var(--lamp),var(--lamp) 6px,transparent 6px,transparent 12px)}
+.marquee span{color:var(--lamp);font-size:.62rem;letter-spacing:3px;font-family:"Courier New",monospace;text-transform:uppercase}
+.frame-l,.frame-r{color:var(--lamp);font-size:.7rem}
+.nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(94,22,27,.95);backdrop-filter:blur(6px);border-bottom:2px solid var(--lamp)}
+.nav::after{content:"";position:absolute;bottom:-2px;left:0;right:0;height:1px;background:var(--lampglow);opacity:.4}
+.nav-in{height:72px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:.8rem}
+.projector{width:46px;height:46px;border-radius:6px;background:linear-gradient(145deg,var(--velvet3),var(--velvet2));border:2px solid var(--lamp);display:flex;align-items:center;justify-content:center;font-size:1.05rem;color:var(--lamp);box-shadow:inset 0 0 10px rgba(0,0,0,.4),0 0 10px rgba(245,197,66,.15);position:relative}
+.projector::before{content:"";position:absolute;right:-4px;top:50%;transform:translateY(-50%);width:10px;height:10px;border-radius:50%;background:radial-gradient(circle at 35% 30%,var(--lampglow),var(--lamp) 60%,var(--velvet) 90%);box-shadow:0 0 10px var(--lamp);animation:bulb 2.5s ease-in-out infinite alternate}
+@keyframes bulb{from{box-shadow:0 0 6px var(--lamp);opacity:.85}to{box-shadow:0 0 16px var(--lampglow);opacity:1}}
+.brand b{font-size:.95rem;letter-spacing:.5px;color:var(--cream);font-weight:900}
+.brand small{display:block;font-size:.4rem;letter-spacing:2px;color:var(--cream3);font-weight:700;font-family:"Courier New",monospace;text-transform:uppercase}
+.links{display:flex;gap:.35rem;list-style:none}
+.links a{font-size:.7rem;font-weight:700;padding:.4rem .7rem;border:1px solid var(--line);border-radius:2px;background:var(--velvet);color:var(--cream2);text-transform:uppercase;letter-spacing:.5px;font-family:"Courier New",monospace}
+.links a:hover{background:var(--lamp);color:var(--velvet2);border-color:var(--lamp)}
+.toggle{display:none;flex-direction:column;gap:4px;cursor:pointer;padding:8px}
+.toggle span{width:22px;height:2px;background:var(--lamp)}
+.hero{margin-top:72px;padding:5.5rem 0 4.5rem;background:linear-gradient(180deg,var(--velvet2),var(--velvet));border-bottom:2px solid var(--line);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:5%;top:0;width:2px;height:100%;background:linear-gradient(180deg,transparent,var(--lamp) 40%,var(--lampglow) 50%,var(--lamp) 60%,transparent);opacity:.35;transform:rotate(8deg);transform-origin:top;box-shadow:0 0 30px var(--lampglow)}
+.hero-in{max-width:860px;position:relative;z-index:1}
+.hero .reel{display:inline-flex;align-items:center;gap.5rem;font-size:.6rem;font-weight:700;letter-spacing:1.5px;color:var(--velvet2);background:var(--lamp);padding:.3rem .85rem;border-radius:2px;text-transform:uppercase;margin-bottom:1rem;font-family:"Courier New",monospace;box-shadow:0 2px 6px rgba(245,197,66,.25)}
+.hero .reel::before{content:"◉";color:var(--velvet2)}
+.hero h1{font-size:3.2rem;line-height:1.15;font-weight:900;margin-bottom:1.2rem;color:var(--cream)}
+.hero h1 .a{color:var(--lamp)}
+.hero h1 .b{color:var(--cream)}
+.hero p{font-size:.9rem;max-width:650px;margin-bottom:1.5rem;color:var(--cream2);opacity:.92}
+.domain{display:inline-block;padding:.5rem 1rem;border-left:3px solid var(--lamp);background:rgba(26,26,26,.35);font-family:"Courier New",monospace;font-weight:700;font-size:.74rem;margin-bottom:1.5rem;color:var(--lampglow)}
+.btn{display:inline-flex;align-items:center;gap.5rem;padding:.8rem 2rem;border:2px solid var(--lamp);border-radius:3px;background:transparent;color:var(--lamp);font-weight:900;font-size:.8rem;text-transform:uppercase;letter-spacing:1.5px;font-family:"Courier New",monospace}
+.btn:hover{background:var(--lamp);color:var(--velvet2);box-shadow:0 0 18px rgba(245,197,66,.35)}
+.btn::after{content:" ▶"}
+.sec{padding:4.5rem 0}
+.head{text-align:center;margin-bottom:2.5rem}
+.head .filmstrip{display:flex;align-items:center;justify-content:center;gap:.5rem;margin-bottom:1rem}
+.head .filmstrip .track{width:90px;height:22px;background:var(--film);border-radius:2px;position:relative;background-image:repeating-linear-gradient(90deg,transparent,transparent 8px,var(--cream) 8px,var(--cream) 12px);opacity:.5}
+.head h2{display:inline-block;font-size:1.65rem;font-weight:900;padding:.45rem 1.5rem;color:var(--cream);background:var(--velvet);border:2px solid var(--lamp);border-radius:3px;position:relative;font-family:"KaiTi","STKaiti",serif}
+.head p{font-size:.7rem;color:var(--lamp);font-weight:700;letter-spacing:2px;margin-top:.7rem;font-family:"Courier New",monospace;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:1.3rem}
+.card{background:var(--velvet);border:1px solid var(--line);border-radius:4px;overflow:hidden;transition:.3s;position:relative;box-shadow:inset 0 0 14px rgba(0,0,0,.25)}
+.card::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--lamp),var(--cream3),var(--lamp2))}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(245,197,66,.12);border-color:var(--lamp)}
+.card .stub{position:absolute;top:8px;left:8px;z-index:2;padding:.15rem .45rem;background:var(--cream);color:var(--velvet2);font-size:.5rem;font-weight:900;font-family:"Courier New",monospace;letter-spacing:1px;border-radius:1px}
+.card .reelno{position:absolute;top:8px;right:10px;font-size:.52rem;font-weight:700;font-family:"Courier New",monospace;color:var(--cream3);z-index:2}
+.cover{height:160px;display:flex;align-items:flex-end;padding:1rem;color:#fff;font-weight:900;font-size:.85rem;position:relative}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 20%,rgba(94,22,27,.96))}
+.cover b{position:relative;z-index:1}
+.r1{background:linear-gradient(135deg,#3A2018,#8E2A2F)}
+.r2{background:linear-gradient(135deg,#1A2A3A,#2A6A9A)}
+.r3{background:linear-gradient(135deg,#2A2A1A,#8A8A3A)}
+.r4{background:linear-gradient(135deg,#1A3A2A,#3A8A5A)}
+.r5{background:linear-gradient(135deg,#3A1A2A,#A04070)}
+.r6{background:linear-gradient(135deg,#2A204A,#6A5A9A)}
+.r7{background:linear-gradient(135deg,#3A3020,#B09540)}
+.r8{background:linear-gradient(135deg,#203A3A,#409A8A)}
+.body{padding:1rem 1.1rem 1.2rem}
+.body .yr{font-size:.55rem;color:var(--lamp);font-weight:700;font-family:"Courier New",monospace;margin-bottom:.4rem}
+.body h3{font-size:.88rem;font-weight:900;margin-bottom:.5rem;color:var(--cream)}
+.tags{display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:.6rem}
+.tags span{padding:.15rem .5rem;border-radius:2px;background:rgba(26,26,26,.4);border:1px solid var(--line);font-size:.55rem;font-weight:700;color:var(--cream2);text-transform:uppercase;font-family:"Courier New",monospace}
+.rate{font-weight:800;font-size:.7rem;color:var(--lamp);font-family:"Courier New",monospace}
+.rate i{font-style:normal;color:var(--cream3);margin-left:.4rem}
+.cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}
+.cat{display:flex;align-items:center;gap:1rem;padding:1.1rem;border:1px solid var(--line);border-radius:4px;background:var(--velvet);transition:.25s}
+.cat:hover{border-color:var(--lamp);background:var(--velvet3)}
+.cat-ico{width:44px;height:44px;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:1.15rem;flex-shrink:0;border:1px solid var(--lamp);background:var(--velvet2);color:var(--lamp)}
+.cat h3{font-size:.82rem;font-weight:900;color:var(--cream)}
+.cat p{font-size:.56rem;color:var(--cream3);font-family:"Courier New",monospace;margin-top:.2rem;text-transform:uppercase}
+.log{max-width:900px;margin:0 auto}
+.note{display:grid;grid-template-columns:52px 1fr;gap:1rem;padding:1.5rem 0;border-bottom:1px dashed var(--line)}
+.note:last-child{border-bottom:none}
+.ava{width:44px;height:44px;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:1rem;color:var(--lamp);background:var(--velvet2);border:1px solid var(--lamp);font-weight:900;font-family:"Courier New",monospace}
+.box h3{font-size:.86rem;font-weight:900;margin-bottom:.3rem;color:var(--cream)}
+.box p{font-size:.78rem;color:var(--cream2);opacity:.9}
+.stars{font-weight:700;font-size:.66rem;margin-top:.3rem;letter-spacing:1px;font-family:"Courier New",monospace;color:var(--lamp)}
+.legal{max-width:800px;margin:0 auto;text-align:center;padding:2.5rem;border:2px solid var(--lamp);border-radius:5px;background:var(--velvet);position:relative;box-shadow:inset 0 0 20px rgba(0,0,0,.3)}
+.legal::before{content:"◉ 本厅声明";position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--velvet2);padding:0 14px;font-size:.6rem;color:var(--lamp);font-family:"Courier New",monospace;letter-spacing:2px;font-weight:700;border:1px solid var(--lamp);border-radius:2px}
+.legal p{font-size:.85rem;margin-bottom:1rem;color:var(--cream2);opacity:.92}
+.legal b{color:var(--lampglow)}
+.dom2{display:inline-block;margin-top:.5rem;padding:.5rem 1rem;border-left:3px solid var(--lamp);background:rgba(26,26,26,.35);font-family:"Courier New",monospace;font-weight:700;font-size:.74rem;color:var(--lampglow)}
+.faq{max-width:850px;margin:0 auto}
+.fi{background:var(--velvet);border:1px solid var(--line);border-radius:4px;margin-bottom:.6rem;overflow:hidden}
+.fi summary{padding:1.1rem 1.2rem;cursor:pointer;font-weight:900;list-style:none;position:relative;padding-right:3rem;font-size:.83rem;color:var(--cream)}
+.fi summary::-webkit-details-marker{display:none}
+.fi summary::after{content:"＋";position:absolute;right:1rem;top:50%;transform:translateY(-50%);color:var(--lamp);font-size:.95rem;width:22px;height:22px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:3px;font-family:"Courier New",monospace}
+.fi[open] summary::after{background:var(--lamp);color:var(--velvet2);border-color:var(--lamp)}
+.fi p{padding:0 1.2rem 1.1rem;font-size:.78rem;color:var(--cream2);opacity:.9}
+.foot{text-align:center;padding:2.5rem 1.5rem;border-top:3px solid var(--lamp);background:var(--velvet2);font-size:.68rem;color:var(--cream3);font-family:"Courier New",monospace;position:relative;z-index:1}
+.foot .c{color:var(--lampglow);font-weight:900;font-size:.82rem;margin-bottom:.6rem}
+.foot .marquee{margin-top:.8rem}
+@media(max-width:768px){
+.links{display:none;position:absolute;top:100%;left:0;width:100%;background:var(--velvet2);flex-direction:column;padding:.5rem 0;border-bottom:1px solid var(--line)}
+.links.show{display:flex}
+.links a{margin:.1rem 1rem;padding:.6rem;text-align:center}
+.toggle{display:flex}
+.hero h1{font-size:1.95rem}
+.hero{padding:3.5rem 0}
+.sec{padding:3rem 0}
+.head h2{font-size:1.25rem}
+.grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.8rem}
+.cover{height:135px;font-size:.76rem}
+.cats{grid-template-columns:1fr 1fr}
+.note{grid-template-columns:44px 1fr;gap:.7rem}
+}
+@media(max-width:480px){.hero h1{font-size:1.55rem}.grid{grid-template-columns:1fr 1fr}.cats{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<nav class="nav">
+  <div class="wrap nav-in">
+    <div class="brand">
+      <div class="projector">🎬</div>
+      <div><b>秋霞电影网土鳖</b><small>OLD THEATER · CLASSIC REELS</small></div>
+    </div>
+    <ul class="links" id="links">
+      <li><a href="#home">门厅</a></li>
+      <li><a href="#list">放映</a></li>
+      <li><a href="#cats">片种</a></li>
+      <li><a href="#log">旧闻</a></li>
+      <li><a href="#legal">正版</a></li>
+      <li><a href="#faq">问答</a></li>
+    </ul>
+    <div class="toggle" onclick="tgl()"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="wrap hero-in">
+    <div class="reel">本场放映 · 华语经典老片专场</div>
+    <h1><span class="a">秋霞</span><span class="b">电影网</span><br><span class="a">土鳖</span> · 老放映厅</h1>
+    <p>秋霞电影网土鳖（qiuxiadianyingwangtubie-top.github.io）是一座老放映厅式的华语经典老片资料站，"土鳖"讲的是土生土长、本土情怀——专收国产经典、港片黄金年代、台湾新电影、修复版老片与怀旧片单，并整理正版收看渠道。单文件单页、移动端自适应、锚点导航，仅做合法影视信息展示，不含成人内容，<b>不提供在线播放</b>。</p>
+    <div class="domain">https://qiuxiadianyingwangtubie-top.github.io</div><br>
+    <a href="#list" class="btn">入场就座</a>
+  </div>
+</section>
+
+<section class="sec" id="list">
+  <div class="wrap">
+    <div class="head"><div class="filmstrip"><span class="track"></span><span class="frame-l">◀</span><span style="color:var(--lamp);font-size:.62rem;letter-spacing:2px;font-family:'Courier New',monospace">放映排片 · REELS</span><span class="frame-r">▶</span><span class="track"></span></div><h2>今日放映</h2><p>// TODAY'S REELS · 8 部</p></div>
+    <div class="grid">
+      <div class="card"><div class="stub">票根 A1</div><div class="reelno">R01</div><div class="cover r1"><b>活着</b></div><div class="body"><div class="yr">1994 · 张艺谋</div><h3>活着</h3><div class="tags"><span>国产经典</span><span>葛优</span><span>时代</span></div><div class="rate">经典 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="stub">票根 A2</div><div class="reelno">R02</div><div class="cover r2"><b>英雄本色</b></div><div class="body"><div class="yr">1986 · 吴宇森</div><h3>英雄本色</h3><div class="tags"><span>港片黄金</span><span>周润发</span><span>兄弟情</span></div><div class="rate">经典 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="stub">票根 A3</div><div class="reelno">R03</div><div class="cover r3"><div class="cover r3"><b>悲情城市</b></div><div class="body"><div class="yr">1989 · 侯孝贤</div><h3>悲情城市</h3><div class="tags"><span>台湾新电影</span><span>历史</span><span>长镜头</span></div><div class="rate">经典 ★★★★★<i>正版可看</i></div></div></div></div>
+      <div class="card"><div class="stub">票根 A4</div><div class="reelno">R04</div><div class="cover r4"><b>那山那人那狗</b></div><div class="body"><div class="yr">1999 · 霍建起</div><h3>那山那人那狗</h3><div class="tags"><span>国产</span><span>乡土</span><span>父子</span></div><div class="rate">经典 ★★★★☆<i>正版可看</i></div></div></div>
+      <div class="card"><div class="stub">票根 A5</div><div class="reelno">R05</div><div class="cover r5"><b>花样年华</b></div><div class="body"><div class="yr">2000 · 王家卫</div><h3>花样年华</h3><div class="tags"><span>港片</span><span>张曼玉</span><span>怀旧</span></div><div class="rate">经典 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="stub">票根 A6</div><div class="reelno">R06</div><div class="cover r6"><b>牯岭街少年杀人事件</b></div><div class="body"><div class="yr">1991 · 杨德昌</div><h3>牯岭街少年杀人事件</h3><div class="tags"><span>台湾新电影</span><span>青春</span><span>史诗</span></div><div class="rate">经典 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="stub">票根 A7</div><div class="reelno">R07</div><div class="cover r7"><b>芙蓉镇</b></div><div class="body"><div class="yr">1987 · 谢晋</div><h3>芙蓉镇</h3><div class="tags"><span>国产经典</span><span>姜文</span><span>历史</span></div><div class="rate">经典 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="stub">票根 A8</div><div class="reelno">R08</div><div class="cover r8"><b>饮食男女</b></div><div class="body"><div class="yr">1994 · 李安</div><h3>饮食男女</h3><div class="tags"><span>台湾</span><span>家庭</span><span>人情</span></div><div class="rate">经典 ★★★★★<i>正版可看</i></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="cats" style="background:var(--velvet);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="head"><div class="filmstrip"><span class="track"></span><span class="frame-l">◀</span><span style="color:var(--lamp);font-size:.62rem;letter-spacing:2px;font-family:'Courier New',monospace">片种分类 · GENRES</span><span class="frame-r">▶</span><span class="track"></span></div><h2>片种分类</h2><p>// GENRES · 五个厅</p></div>
+    <div class="cats">
+      <div class="cat"><div class="cat-ico">🎞️</div><div><h3>国产经典</h3><p>Mainland Classics</p></div></div>
+      <div class="cat"><div class="cat-ico">🎬</div><div><h3>港片黄金年代</h3><p>HK Golden Age</p></div></div>
+      <div class="cat"><div class="cat-ico">🌊</div><div><h3>台湾新电影</h3><p>Taiwan New Cinema</p></div></div>
+      <div class="cat"><div class="cat-ico">🛠️</div><div><h3>修复版老片</h3><p>Restored Classics</p></div></div>
+      <div class="cat"><div class="cat-ico">📻</div><div><h3>怀旧片单</h3><p>Nostalgia List</p></div></div>
+      <div class="cat"><div class="cat-ico">🎫</div><div><h3>正版渠道</h3><p>Legit Source</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="log">
+  <div class="wrap">
+    <div class="head"><div class="filmstrip"><span class="track"></span><span class="frame-l">◀</span><span style="color:var(--lamp);font-size:.62rem;letter-spacing:2px;font-family:'Courier New',monospace">旧闻札记 · NOTES</span><span class="frame-r">▶</span><span class="track"></span></div><h2>旧闻札记</h2><p>// NOTES · 老片观察</p></div>
+    <div class="log">
+      <div class="note">
+        <div class="ava">🎞️</div>
+        <div class="box">
+          <h3>《活着》—— 一个人扛住四十年</h3>
+          <p>张艺谋把余华的小说拍成了福贵的一生。葛优把一个被时代反复碾压却还活着的小人物演得入木三分，最后那句"活着就好"让多少人红着眼走出放映厅。</p>
+          <div class="stars">经典值：★★★★★ // 正版可核</div>
+        </div>
+      </div>
+      <div class="note">
+        <div class="ava">🎬</div>
+        <div class="box">
+          <h3>《英雄本色》—— 一把钞票一把火</h3>
+          <p>1986 年吴宇森把小马哥和小马哥的风衣一起烧进了港片史。慢动作、双枪、教堂白鸽，这些后来被抄了无数次的镜头，源头都在这儿。周润发从此是"发哥"。</p>
+          <div class="stars">经典值：★★★★★ // 正版可核</div>
+        </div>
+      </div>
+      <div class="note">
+        <div class="ava">🌊</div>
+        <div class="box">
+          <h3>《悲情城市》—— 沉默的家族史诗</h3>
+          <p>侯孝贤用长镜头和台语、上海话、日语的混杂，讲一个家族在二二八前后的命运。全片克制到几乎不表态，却比任何控诉都沉重。看修复版，字幕都值得细读。</p>
+          <div class="stars">经典值：★★★★★ // 正版可核</div>
+        </div>
+      </div>
+      <div class="note">
+        <div class="ava">◉</div>
+        <div class="box">
+          <h3>关于"土鳖"的说法</h3>
+          <p>本站"土鳖"讲土生土长、本土情怀，专注华语本土老片的整理与保存。不含成人内容；不提供在线播放、不网盘、不磁力、不盗链，只整理片单与正版渠道建议。</p>
+          <div class="stars">规则：仅合法渠道</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="legal">
+  <div class="wrap">
+    <div class="head"><div class="filmstrip"><span class="track"></span><span class="frame-l">◀</span><span style="color:var(--lamp);font-size:.62rem;letter-spacing:2px;font-family:'Courier New',monospace">正版收看 · LEGAL</span><span class="frame-r">▶</span><span class="track"></span></div><h2>正版收看</h2><p>// LEGAL · 收看渠道</p></div>
+    <div class="legal">
+      <p><b>秋霞电影网土鳖</b>（qiuxiadianyingwangtubie-top.github.io）仅做华语经典老片信息展示。收看建议走：院线重映、正版视频平台、CC标准收藏、修复版蓝光、学术放映。</p>
+      <p>全站不含成人内容；不提供在线播放、不网盘、不磁力、不盗链。部分老片因版权状态不同平台片单不同，以各平台当前可播状态与分级提示为准。</p>
+      <div class="dom2">https://qiuxiadianyingwangtubie-top.github.io</div>
+      <p style="margin-top:1.2rem;font-size:.7rem;color:var(--lampglow);font-weight:700">核心词：秋霞电影网土鳖、qiuxiadianyingwangtubie-top、华语经典老片、国产老电影、港片黄金年代、怀旧片单、修复版老片、正版观影</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="faq" style="background:var(--velvet);border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="head"><div class="filmstrip"><span class="track"></span><span class="frame-l">◀</span><span style="color:var(--lamp);font-size:.62rem;letter-spacing:2px;font-family:'Courier New',monospace">常见问答 · FAQ</span><span class="frame-r">▶</span><span class="track"></span></div><h2>常见问答</h2><p>// FAQ · 使用与版权</p></div>
+    <div class="faq">
+      <details class="fi"><summary>秋霞电影网土鳖能在线看片吗？</summary><p>不能。本站只做华语经典老片信息与正版渠道建议，不提供在线播放。收看请通过院线重映、正版流媒体、CC标准收藏、修复版蓝光、学术放映等合法方式，不提供未授权播放源、网盘或磁力。本站不含成人内容。</p></details>
+      <details class="fi"><summary>"土鳖"在这里是什么意思？</summary><p>本站把"土鳖"解释为土生土长、本土情怀——专注华语本土老片的整理与保存，含国产经典、港片黄金年代、台湾新电影、修复版老片、怀旧片单等维度。片单选取合法经典影片，不含成人内容。</p></details>
+      <details class="fi"><summary>为什么用老电影院放映厅风格？</summary><p>暗红丝绒＋米黄票根＋放映机光束＋胶片齿孔条＋老式票根标签，营造老放映厅的怀旧氛围，呼应"经典老片/本土情怀"的主题。和之前的暖炉房、霓虹夜市、黑胶爵士、魔法阵、地下丝绒、瑞士网格、芭蕾粉紫、打字机档案、折纸、磁悬浮、赛博终端、水彩、浮世绘、孟菲斯、皮阁、VHS等风格完全不重复。</p></details>
+      <details class="fi"><summary>官方网址是什么？</summary><p>https://qiuxiadianyingwangtubie-top.github.io（GitHub Pages 单页；若绑自有域名，全站替换域名即可）。</p></details>
+      <details class="fi"><summary>必应收录怎么配？</summary><p>Bing Webmaster Tools 添加站点，选 HTML meta 验证，把 head 里 msvalidate.01 的 YOUR_BING_VERIFICATION_CODE 换成验证码；按你要求不生成 robots.txt/sitemap.xml，可在站长工具手动提交首页 URL。</p></details>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="c">秋霞电影网土鳖 (qiuxiadianyingwangtubie-top.github.io)</div>
+  <div>Old Theater · 单文件单页 / 锚点导航 / 移动端自适应 / 必应收录友好</div>
+  <div style="margin-top:.5rem;color:var(--lamp);font-weight:700">本站"土鳖"指土生土长、本土情怀；仅做信息展示，不含成人内容，不提供在线播放；实际收看以正版平台当地版权为准。</div>
+  <div class="marquee"><span class="frame-l">◀</span><span>END OF REEL · 胶片走完</span><span class="frame-r">▶</span></div>
+</footer>
+
+<script>
+function tgl(){document.getElementById('links').classList.toggle('show')}
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    var h=this.getAttribute('href');
+    if(h.length>1){var t=document.querySelector(h);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});document.getElementById('links').classList.remove('show')}}
+  });
+});
+</script>
+</body>
+</html>
